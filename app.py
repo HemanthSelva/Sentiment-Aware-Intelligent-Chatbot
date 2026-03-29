@@ -3,7 +3,7 @@ from groq import Groq
 from transformers import pipeline
 import time
 
-GROQ_API_KEY = "your-groq-api-key-here"
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
 st.set_page_config(
     page_title="Sentiment-Aware Intelligent Chatbot",
